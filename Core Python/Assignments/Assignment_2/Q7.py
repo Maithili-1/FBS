@@ -1,10 +1,16 @@
 #WAP to find sum of 3-digit number.
 
-num = int(input("Enter 3-digit number : "))
+num = int(input("Enter the 3-digit number : "))
+n = num
 
-H = num//100
-T = (num//10)%10
-U = num%10
+d1 = num % 10
+num = num//10
 
-sum = H+T+U
-print(f"Sum of 3-digit number {num} is {sum}.")
+d2 = num % 10
+num = num//10
+
+d3 = num % 10
+num = num //10
+
+sum = d1 + d2 + d3
+print(f"Sum of 3-digit number {n} is {sum}.")
