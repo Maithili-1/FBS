@@ -3,7 +3,6 @@ interior_cost = int(input("Enter cost of interior wall : "))
 exterior_cost = int(input("Enter cost of exterior wall : "))
 
 total_interior = area * 8 * interior_cost
-total_exterior = area * 6 * interior_cost
 
 total_cost = total_interior + total_exterior
 
