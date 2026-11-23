@@ -11,5 +11,5 @@ for i in range(1, size):
 print(f"List after sorting : {data}")
 
 
-#Using in-built method :- 
+# Using in-built method :- 
 # data.sort(key = lambda x : x[2])

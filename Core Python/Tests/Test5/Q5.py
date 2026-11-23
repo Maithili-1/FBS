@@ -8,4 +8,4 @@ for ele in li3:
     if ele not in union_li:
         union_li.append(ele)
 
-print(f"List 1 : {li1}\nList 2 : {li2}\nUnion of List1 and List2 :- {union_li}")
+print(f"List 1 : {li1}\nList 2 : {li2}\nUnion of List1 and List2 :- {union_li}") 
