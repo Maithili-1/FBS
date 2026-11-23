@@ -1,15 +1,7 @@
-n = int(input("Enter the original number of coins: "))
-coins = list(map(int, input("Enter the coin numbers: ").split()))
-
-count = {}
+n = int(input())
+coins = list(map(int, input().split()))
 
 for i in coins:
-    if i in count:
-        count[i] += 1
-    else:
-        count[i] = 1
-
-for i in count:
-    if count[i] % 2 != 0:
-        print("Missing coin number:", i)
+    if coins.count(i) % 2 != 0:
+        print(i)
         break
